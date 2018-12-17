@@ -1,0 +1,38 @@
+body{
+    background-color: beige;
+}
+
+main .row{
+    border: solid black 1px;
+}
+.btn-group{
+    width: 100%;
+    height: 20vh;
+    background: blue;
+}
+.btn-group .btn{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    width: 33%;
+}
+#inputRow{
+    display: flex;
+    height: 70vh;
+}
+#resultRow{
+    height: 30vh;
+}
+#inputRow>div{
+    display: flex;
+    flex-flow: column nowrap;
+    padding: 20px;
+    height: 100%;
+}
+#inputRow .btn-block{
+    align-self: flex-end;
+}
+#showChoice{
+    align-content: center;
+    flex-grow: 1;
+}
